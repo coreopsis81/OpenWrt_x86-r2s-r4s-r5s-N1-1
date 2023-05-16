@@ -41,7 +41,7 @@
  				compatible = "denx,uimage";
  				label = "firmware";
 -				reg = <0x180000 0xe80000>;
-+				reg = <0x50000 0xfb0000>;
++				reg = <0x50000 0x1fb0000>;
  			};
  		};
  	};
@@ -62,7 +62,7 @@
    $(Device/dsa-migration)
    $(Device/uimage-lzma-loader)
 -  IMAGE_SIZE := 14848k
-+  IMAGE_SIZE := 16064k
++  IMAGE_SIZE := 32064k
    DEVICE_VENDOR := Xiaomi
    DEVICE_MODEL := Mi Router 4A
    DEVICE_VARIANT := Gigabit Edition
